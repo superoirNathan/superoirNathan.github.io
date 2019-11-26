@@ -1,20 +1,25 @@
 body{
-    background:wheat;
-    color:dimgrey;
+    background:black;
+    color:beige;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
 }
 h1{
-    color:brown;
-    padding: 1%;            
+    color: antiquewhite;
+    text-indent: 1%;
 }
 h2{
-    color: sienna;
-    padding:  1%;
+    color: burlywood;
+    text-indent: 1%;
+}
+h5{
+    text-indent: 1%;
+    margin-bottom: 0%;
 }
 h6{
-    padding: 1%;
+    text-indent: 1%;
+    margin: 0%;
 }
 button{
     display:block;
@@ -25,17 +30,17 @@ button{
 
 header{
     background: lightslategray;
-    padding: 20px;
+    padding: 1%;
 }
 section{
     background: olivedrab;
-    padding: 20px;
+    padding: 3%;
     display: flex;
     flex-direction: row;
 }
 div{
     background: greenyellow;
-    width: 300px;
+    width: 30%;
     margin: auto;
 }
 ul{
@@ -46,9 +51,13 @@ ul{
 li{
     color: honeydew;
     display: inline;
-    margin: 0 20px 0 0;
+    margin: 0 10% 0 0;
+}
+p{
+    padding: 1% 0% 1% 1%;
+    margin: 0%
 }
 footer{
     background: peru;
-    padding: 10px;
+    padding: 10%;
 }
