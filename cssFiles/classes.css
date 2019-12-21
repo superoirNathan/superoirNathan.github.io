@@ -1,0 +1,48 @@
+
+header .resumeIcon a{
+    background-image: url("/images/resume.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    text-indent: 0px;
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
+}
+
+
+header .homeIcon a{
+    background-image: url("/images/meFace.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    text-indent: 30px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.features{
+    background: white;
+    color: grey;
+    margin: 1%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;   
+}
+.features figure{
+    margin:3%;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+.features figure img{
+    border-radius: 10%;
+    box-shadow: black 0 0 3px;
+}
+.features figure figcaption{
+    position: absolute;
+    text-indent: 10%;
+}

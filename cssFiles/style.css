@@ -29,7 +29,7 @@ header{
 }
 section{
     background: olivedrab;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
 }
@@ -49,6 +49,8 @@ li{
     margin: 0 20px 0 0;
 }
 footer{
-    background: peru;
+    background: black;
+    color: azure;
     padding: 10px;
+    text-align: center;
 }
